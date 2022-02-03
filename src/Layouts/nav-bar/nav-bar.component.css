@@ -1,0 +1,35 @@
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    background: rgba(55, 64, 85, 0.9);
+    position: absolute;
+    top:7%;
+    left: 50%;
+    right:50%;
+  }
+  #header.header-transparent {
+    background: transparent;
+  }
+  #header.header-scrolled {
+    background: rgba(55, 64, 85, 0.9);
+    padding: 15px 0;
+  }
+  #header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #header .logo a {
+    color: #F8B8C1 !important;
+  }
+
+  #header .logo img {
+    max-height: 40px;
+  }
+

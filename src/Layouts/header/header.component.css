@@ -1,0 +1,28 @@
+
+
+.input-group{
+  width:40%;
+}
+
+.form-outline{
+width: 70%;
+}
+
+.form-control {
+  border-color: #F8B8C1;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+}
+
+.btn-primary{
+  color: #F8B8C1;
+  background-color:transparent;
+  border: none;
+  font-size:30px;
+}
+
+
+
+
+
+
