@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -16,6 +20,7 @@ body {
 a {
   color: #F8B8C1;
   text-decoration: none;
+  font-family: "Source Sans Pro",sans-serif;
 }
 
 a:hover {
@@ -24,9 +29,12 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Baskerville No 2",serif;
 }
 
+p{
+  font-family: "Source Sans Pro",sans-serif;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -60,44 +68,17 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 20px 0;
-  background: rgba(55, 64, 85, 0.9);
-}
-#header.header-transparent {
-  background: transparent;
-}
-#header.header-scrolled {
-  background: rgba(55, 64, 85, 0.9);
-  padding: 15px 0;
-}
-#header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
-}
-#header .logo a {
-  color: #fff;
-}
-#header .logo img {
-  max-height: 40px;
-}
-
+/* Transfered to navbar component*/
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
 }
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -181,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -269,8 +250,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 60vh;
+  background: url("../../assets/img/Gallery/Profile/7B.png") top right;
   background-size: cover;
   position: relative;
 }
@@ -368,7 +349,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ffc107;
+  background: rgba(248,184,193);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -623,11 +604,11 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #ffc107;
+  border: 2px solid rgba(248,184,193);
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #ffc107;
+  background: rgba(248,184,193);
 }
 
 /*--------------------------------------------------------------
@@ -724,7 +705,7 @@ section {
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #414c64;
-  background: #ffc107;
+  background: rgba(248,184,193);
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1092,7 +1073,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #ffc107;
+  color: rgba(248,184,193);
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #ffeeba;
@@ -1165,15 +1146,15 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #ffc107;
+  background: rgba(248,184,193,0.6);
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: black;
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffce3a;
+  background: rgba(248,184,193);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1202,7 +1183,7 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fafafc;
+  /* background: #fafafc; */
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;

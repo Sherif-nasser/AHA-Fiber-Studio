@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+.BGheaderImg{
+  background-image:  url(../../assets/img/Gallery/Profile/bkg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 20px 0;
-    background: rgba(55, 64, 85, 0.9);
-    position: absolute;
-    top:7%;
-    left: 50%;
-    right:50%;
+    padding: 5px 0;
+    margin-bottom:2rem;
+    background-color:rgba(248,184,193, 0.4);
   }
+
   #header.header-transparent {
     background: transparent;
   }
+
   #header.header-scrolled {
-    background: rgba(55, 64, 85, 0.9);
-    padding: 15px 0;
+    margin: auto;
+    padding: 20px 0;
   }
+
   #header .logo {
     font-size: 28px;
     margin: 0;
@@ -33,3 +41,23 @@
     max-height: 40px;
   }
 
+.fixed{
+  position:fixed;
+  background-color:rgba(248,184,193, 0.8) !important;
+  transition: all 0.5s;
+  width:100%;
+  top:0%;
+  padding: 15px 0 !important;
+  margin-bottom:0 !important;
+  
+}
+.fixed ul li a{
+color:white !important;
+
+}
+
+.navbar ul li a{
+  color:black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

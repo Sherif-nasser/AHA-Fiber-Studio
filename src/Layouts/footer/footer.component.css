@@ -1,0 +1,38 @@
+#footer{
+  font-size:25px;
+  background-image:  url(../../assets/img/Gallery/Profile/bkg.jpeg);
+}
+
+.footer-top{
+  background-color:rgba(248,184,193, 0.4);
+}
+
+.logoFooter{
+  margin-bottom:1rem;
+}
+.logoFooter img{
+  width:100%;
+  
+  }
+
+  .footer-links h4{
+    font-size:1.5rem !important;
+  }
+
+
+  .footer-newsletter{
+    font-size:22px !important;
+    margin:auto;
+  }
+  .footer-newsletter h4{
+    font-size:1.5rem !important;
+  }
+
+  .copyright {
+
+    font-size:1rem;
+  }
+
+  #footer .credits {
+    font-size:1rem;
+  }

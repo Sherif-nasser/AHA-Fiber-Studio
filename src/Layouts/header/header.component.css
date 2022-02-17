@@ -1,21 +1,44 @@
 
 
 .input-group{
-  width:40%;
+  width:70%;
+}
+
+.coverImgLayer{
+  background-image:  url(../../assets/img/Gallery/Profile/bkg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Head{
+  background-color:rgba(248,184,193, 0.4);
+  /* background-color:rgba(255, 183	, 197, 0.1); */
+  /* background: rgba(45, 53, 69, .5) !important; */
+}
+
+.logo{
+  width:50%;
+}
+.logo img{
+width:130px;
 }
 
 .form-outline{
-width: 70%;
+width: 100%;
+display:flex;
+justify-content: space-between;
+
 }
 
 .form-control {
   border-color: #F8B8C1;
   border-radius: 1rem;
   font-size: 1.3rem;
+  border:none;
 }
 
 .btn-primary{
-  color: #F8B8C1;
+  color:black;
   background-color:transparent;
   border: none;
   font-size:30px;
